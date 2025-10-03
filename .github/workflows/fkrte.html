@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="description" content="">
+    <style>
+        img {
+            width: 300px;
+            border-radius: 150px;
+            float: left;
+            margin-right: 30px;
+        }
+
+        .proud {
+            font-weight: bold;
+            font-size :40px;
+        }
+        .name{
+            color:blue;
+             font-weight: bold;
+            font-size :30px;
+        }
+        .location{
+             font-weight: bold;
+            background-color: rgb(235, 235, 190);
+            font-style: normal;
+            font-size :30px;
+        }
+        .myloc{
+               font-weight: bold;
+            background-color: rgb(235, 235, 190);
+            font-style: normal;
+            font-size :30px;
+          }
+    </style>
+    <title>Document</title>
+</head>
+
+<body>
+    <a href="https://google.com" target="_blank">google</a>
+    <p class="proud"> ema ewedshalew baygeltsewm mewdeden ewedshalew malete anchin slemyasdestsh ewedshalew</p>
+    <p class="name">bemchlew menged egeltslshalew</p>
+    <p class="location">ydres lemwedsh lemtnafkign le Ema</p>
+    <p class="myloc"> yanchiw afkari Bilal Usman ke ASTU</p>
+</body>
+
+</html>
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v4
+
+      # Runs a single command using the runners shell
+      - name: Run a one-line script
+        run: echo Hello, world!
+
+      # Runs a set of commands using the runners shell
+      - name: Run a multi-line script
+        run: |
+          echo Add other actions to build,
+          echo test, and deploy your project.
